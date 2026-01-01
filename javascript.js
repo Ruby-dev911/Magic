@@ -1,15 +1,21 @@
-let userChoice = "";
+let userName = "";
 
-let computerAnswer = Math.floor(Math.random());
+userName ? console.log(`Hello ${userName}!`) : console.log(`Hello, mortal.`);
+
+let userQuestion ="";
+console.log(`${userName} you asked, ${userQuestion} let us see the future..`);
+
+let computerAnswer = Math.floor(Math.random()*8);
+let eighball ="";
 
 if (computerAnswer === 1) {
-    console.log('Remember every choice you make has romantic consequences.');
+    console.log('Remember every choice you make has consequences.');
 } else if (computerAnswer === 2) {
     console.log('Yes.');
 } else if (computerAnswer === 3) {
     console.log('You will be happy... You have no choice.');
 } else if (computerAnswer === 4) {
-    console.log('I see it in the future. You CAN\'T ESCAPE IT!');
+    console.log('I see the future. You CAN\'T ESCAPE IT!');
 } else if (computerAnswer === 5) {
     console.log('No! You will be okay. This is a threat.');
 } else if (computerAnswer === 6) {
@@ -21,13 +27,17 @@ if (computerAnswer === 1) {
 } else if (computerAnswer === 9) {
     console.log('Try again.');
 } else if (computerAnswer === 10) {
-    console.log('You will exceed your efforts.. IT HAS BEEN WRITTEN.');
+    console.log('You will exceed in your efforts.. IT HAS BEEN WRITTEN.');
 } else if (computerAnswer === 11) {
     console.log('Never. You will get what you need. No more no less.');
 } else if (computerAnswer === 12) {    
     console.log('Whatever you decide. You will pay the price. THE COUNCIL HAS SPOKEN!');
 } else if (computerAnswer === 13) {
-    console.log('No. I will now allow you 10 seconds to express your dissappointment by screaming into the void.');
+    console.log('NO. I will now allow you 10 seconds to express your dissappointment by screaming into the void.');
 } else if (computerAnswer === 14) {
     console.log('It is the end.');
-} 
+} else if (computerAnswer === 15) {
+    console.log('It is fate.');
+}
+
+console.log(eighball);
