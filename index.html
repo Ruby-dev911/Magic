@@ -16,5 +16,15 @@
     <div class="face bottom">6</div>
   </div>
   </section>
+   <script type="">
+          setChoice("transform: rotate3d(0, 0, 0, 0);");
+        </script>
+        <script>
+          try {
+            window.parent.postMessage({ typ: "ready" }, "*");
+          } catch (e) {
+            console.error("[Playground] Failed to post ready message", e);
+          }
+        </script>
 </body>
 </html>
