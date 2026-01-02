@@ -27,3 +27,26 @@ display: block;
   color: white;
 }
 
+.front {
+  background: rgb(90 90 90 / 70%);
+}
+
+.back {
+  background: rgb(0 210 0 / 70%);
+}
+
+.right {
+  background: rgb(210 0 0 / 70%);
+}
+
+.left {
+  background: rgb(0 0 210 / 70%);
+}
+
+.top {
+  background: rgb(210 210 0 / 70%);
+}
+
+.bottom {
+  background: rgb(210 0 210 / 70%);
+}
