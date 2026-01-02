@@ -64,7 +64,7 @@
                 }
               }
 
-              window.addEventListener("message", ({ data }) => {
+              window.addEventListener("click", ({ data }) => {
                 if (data.typ === "choice") {
                   setChoice(data.code);
                 }
