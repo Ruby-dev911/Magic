@@ -1,3 +1,7 @@
+div {
+  display: flex;
+  align: center;
+}
 
 #example-element {
   width: 100px;
