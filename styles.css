@@ -11,7 +11,7 @@ div {
   transform: rotate3d(1, 1, 1, 30deg);
 }
 
-.transition all {
+.transition-all {
   transition: all 0.3s ease in;
 }
 
