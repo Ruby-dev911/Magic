@@ -56,3 +56,7 @@ div {
   background: rgb(210 0 210 / 70%);
   transform: rotateX(-90deg) translateZ(50px);
 }
+
+.select-form {
+  margin-top: 50px;
+}
