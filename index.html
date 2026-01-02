@@ -14,15 +14,19 @@
     <div class="face top">5</div>
     <div class="face bottom">6</div>
   </section>
-   <script type="">
-          setChoice("transform: rotate3d(0, 0, 0, 0);");
-        </script>
-        <script>
-          try {
-            window.parent.postMessage({ typ: "ready" }, "*");
-          } catch (e) {
-            console.error("[Playground] Failed to post ready message", e);
-          }
+   <script type>
+          const selectElem = document.querySelector("select");
+const example = document.querySelector("#example-element");
+
+selectElem.addEventListener("change", () => {
+  if (selectElem.value === "Choose a function") {
+    return;
+  }
+  example.style.transform = `rotate3d(1, 1, 1, 30deg) ${selectElem.value}`;
+  setTimeout(() => {
+    example.style.transform = "rotate3d(1, 1, 1, 30deg)";
+  }, 2000);
+});
         </script>
 </body>
 </html>
