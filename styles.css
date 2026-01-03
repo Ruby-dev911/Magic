@@ -1,4 +1,8 @@
 
+body {
+  position: center;
+}
+
 main {
   width: 400px;
   height: 200px;
