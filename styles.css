@@ -1,4 +1,12 @@
-          #default-example {
+
+main {
+  width: 400px;
+  height: 200px;
+  padding: 50px;
+  background-image: linear-gradient(135deg, white, cyan, white);
+}
+
+#default-example {
   background: linear-gradient(skyblue, khaki);
   perspective: 550px;
 }
