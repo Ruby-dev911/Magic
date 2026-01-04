@@ -22,6 +22,10 @@ main {
   transform-style: preserve-3d;
 }
 
+.transition-all: {
+transition: all 0.3s ease-in;
+}
+
 .face {
   display: flex;
   align-items: center;
